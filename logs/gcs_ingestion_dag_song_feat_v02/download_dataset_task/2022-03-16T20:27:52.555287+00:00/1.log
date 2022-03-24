@@ -1,0 +1,30 @@
+[2022-03-16 20:31:05,940] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: gcs_ingestion_dag_song_feat_v02.download_dataset_task manual__2022-03-16T20:27:52.555287+00:00 [queued]>
+[2022-03-16 20:31:05,947] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: gcs_ingestion_dag_song_feat_v02.download_dataset_task manual__2022-03-16T20:27:52.555287+00:00 [queued]>
+[2022-03-16 20:31:05,948] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-16 20:31:05,948] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-03-16 20:31:05,948] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-16 20:31:05,955] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): download_dataset_task> on 2022-03-16 20:27:52.555287+00:00
+[2022-03-16 20:31:05,959] {standard_task_runner.py:52} INFO - Started process 9787 to run task
+[2022-03-16 20:31:05,962] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'gcs_ingestion_dag_song_feat_v02', 'download_dataset_task', 'manual__2022-03-16T20:27:52.555287+00:00', '--job-id', '122', '--raw', '--subdir', 'DAGS_FOLDER/gcs_ingestion_dag_song_feat_v02.py', '--cfg-path', '/tmp/tmp1dvssz6a', '--error-file', '/tmp/tmp8fglpn_g']
+[2022-03-16 20:31:05,962] {standard_task_runner.py:77} INFO - Job 122: Subtask download_dataset_task
+[2022-03-16 20:31:05,998] {logging_mixin.py:109} INFO - Running <TaskInstance: gcs_ingestion_dag_song_feat_v02.download_dataset_task manual__2022-03-16T20:27:52.555287+00:00 [running]> on host 56c17fb3521b
+[2022-03-16 20:31:06,033] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=gcs_ingestion_dag_song_feat_v02
+AIRFLOW_CTX_TASK_ID=download_dataset_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-03-16T20:27:52.555287+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-03-16T20:27:52.555287+00:00
+[2022-03-16 20:31:06,034] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-03-16 20:31:06,034] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -sSLf https://zenodo.org/record/4904639/files/musicoset_songfeatures.zip > /opt/***/musicoset_songfeatures.zip']
+[2022-03-16 20:31:06,043] {subprocess.py:85} INFO - Output:
+[2022-03-16 20:31:36,243] {local_task_job.py:212} WARNING - State of this instance has been externally set to failed. Terminating instance.
+[2022-03-16 20:31:36,245] {process_utils.py:124} INFO - Sending Signals.SIGTERM to group 9787. PIDs of all processes in the group: [9788, 9789, 9787]
+[2022-03-16 20:31:36,245] {process_utils.py:75} INFO - Sending the signal Signals.SIGTERM to group 9787
+[2022-03-16 20:31:36,245] {taskinstance.py:1408} ERROR - Received SIGTERM. Terminating subprocesses.
+[2022-03-16 20:31:36,245] {subprocess.py:99} INFO - Sending SIGTERM signal to process group
+[2022-03-16 20:31:36,252] {process_utils.py:70} INFO - Process psutil.Process(pid=9789, status='terminated', started='20:31:05') (9789) terminated with exit code None
+[2022-03-16 20:31:36,304] {process_utils.py:70} INFO - Process psutil.Process(pid=9787, status='terminated', exitcode=0, started='20:31:05') (9787) terminated with exit code 0
+[2022-03-16 20:31:36,304] {process_utils.py:70} INFO - Process psutil.Process(pid=9788, status='terminated', started='20:31:05') (9788) terminated with exit code None

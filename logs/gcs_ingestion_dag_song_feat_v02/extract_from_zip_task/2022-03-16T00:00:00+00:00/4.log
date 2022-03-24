@@ -1,0 +1,22 @@
+[2022-03-16 20:28:08,475] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: gcs_ingestion_dag_song_feat_v02.extract_from_zip_task scheduled__2022-03-16T00:00:00+00:00 [queued]>
+[2022-03-16 20:28:08,482] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: gcs_ingestion_dag_song_feat_v02.extract_from_zip_task scheduled__2022-03-16T00:00:00+00:00 [queued]>
+[2022-03-16 20:28:08,483] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-16 20:28:08,483] {taskinstance.py:1239} INFO - Starting attempt 4 of 5
+[2022-03-16 20:28:08,483] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-16 20:28:08,490] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): extract_from_zip_task> on 2022-03-16 00:00:00+00:00
+[2022-03-16 20:28:08,495] {standard_task_runner.py:52} INFO - Started process 9595 to run task
+[2022-03-16 20:28:08,497] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'gcs_ingestion_dag_song_feat_v02', 'extract_from_zip_task', 'scheduled__2022-03-16T00:00:00+00:00', '--job-id', '111', '--raw', '--subdir', 'DAGS_FOLDER/gcs_ingestion_dag_song_feat_v02.py', '--cfg-path', '/tmp/tmpzb30en9w', '--error-file', '/tmp/tmpwspexuw7']
+[2022-03-16 20:28:08,497] {standard_task_runner.py:77} INFO - Job 111: Subtask extract_from_zip_task
+[2022-03-16 20:28:08,527] {logging_mixin.py:109} INFO - Running <TaskInstance: gcs_ingestion_dag_song_feat_v02.extract_from_zip_task scheduled__2022-03-16T00:00:00+00:00 [running]> on host 56c17fb3521b
+[2022-03-16 20:28:08,557] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=gcs_ingestion_dag_song_feat_v02
+AIRFLOW_CTX_TASK_ID=extract_from_zip_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-03-16T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-03-16T00:00:00+00:00
+[2022-03-16 20:28:08,572] {python.py:175} INFO - Done. Returned value was: None
+[2022-03-16 20:28:08,579] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=gcs_ingestion_dag_song_feat_v02, task_id=extract_from_zip_task, execution_date=20220316T000000, start_date=20220316T202808, end_date=20220316T202808
+[2022-03-16 20:28:08,628] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-03-16 20:28:08,670] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

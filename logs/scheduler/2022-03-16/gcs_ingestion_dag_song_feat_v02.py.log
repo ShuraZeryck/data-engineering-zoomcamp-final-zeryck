@@ -1,0 +1,311 @@
+[2022-03-16 20:13:21,844] {processor.py:163} INFO - Started process (PID=37592) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:13:21,845] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:13:21,845] {logging_mixin.py:109} INFO - [2022-03-16 20:13:21,845] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:13:22,340] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:13:22,481] {logging_mixin.py:109} INFO - [2022-03-16 20:13:22,480] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:13:22,498] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.656 seconds
+[2022-03-16 20:13:52,921] {processor.py:163} INFO - Started process (PID=37731) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:13:52,923] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:13:52,923] {logging_mixin.py:109} INFO - [2022-03-16 20:13:52,923] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:13:53,516] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:13:53,524] {logging_mixin.py:109} INFO - [2022-03-16 20:13:53,524] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:13:53,544] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.625 seconds
+[2022-03-16 20:14:23,711] {processor.py:163} INFO - Started process (PID=37897) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:14:23,712] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:14:23,712] {logging_mixin.py:109} INFO - [2022-03-16 20:14:23,712] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:14:24,203] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:14:24,205] {logging_mixin.py:109} INFO - [2022-03-16 20:14:24,205] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:14:24,222] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.513 seconds
+[2022-03-16 20:14:54,742] {processor.py:163} INFO - Started process (PID=38045) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:14:54,743] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:14:54,743] {logging_mixin.py:109} INFO - [2022-03-16 20:14:54,743] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:14:55,249] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:14:55,399] {logging_mixin.py:109} INFO - [2022-03-16 20:14:55,399] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:14:55,419] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.679 seconds
+[2022-03-16 20:15:25,469] {processor.py:163} INFO - Started process (PID=38185) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:15:25,470] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:15:25,471] {logging_mixin.py:109} INFO - [2022-03-16 20:15:25,471] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:15:25,962] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:15:25,968] {logging_mixin.py:109} INFO - [2022-03-16 20:15:25,968] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:15:25,984] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.518 seconds
+[2022-03-16 20:15:28,775] {processor.py:163} INFO - Started process (PID=38262) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:15:28,776] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:15:28,776] {logging_mixin.py:109} INFO - [2022-03-16 20:15:28,776] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:15:29,299] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:15:29,301] {logging_mixin.py:109} INFO - [2022-03-16 20:15:29,300] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:15:29,320] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.547 seconds
+[2022-03-16 20:15:59,350] {processor.py:163} INFO - Started process (PID=38402) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:15:59,354] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:15:59,355] {logging_mixin.py:109} INFO - [2022-03-16 20:15:59,354] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:15:59,866] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:15:59,996] {logging_mixin.py:109} INFO - [2022-03-16 20:15:59,996] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:16:00,013] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.668 seconds
+[2022-03-16 20:16:03,541] {processor.py:163} INFO - Started process (PID=38446) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:16:03,542] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:16:03,542] {logging_mixin.py:109} INFO - [2022-03-16 20:16:03,542] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:16:04,062] {processor.py:690} INFO - Deactivated 1 DAGs which are no longer present in /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:16:04,063] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat_v02']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:16:04,898] {logging_mixin.py:109} INFO - [2022-03-16 20:16:04,898] {manager.py:496} INFO - Created Permission View: can read on DAG:gcs_ingestion_dag_song_feat_v02
+[2022-03-16 20:16:04,903] {logging_mixin.py:109} INFO - [2022-03-16 20:16:04,903] {manager.py:496} INFO - Created Permission View: can edit on DAG:gcs_ingestion_dag_song_feat_v02
+[2022-03-16 20:16:04,903] {logging_mixin.py:109} INFO - [2022-03-16 20:16:04,903] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:16:04,907] {logging_mixin.py:109} INFO - [2022-03-16 20:16:04,907] {dag.py:2415} INFO - Creating ORM DAG for gcs_ingestion_dag_song_feat_v02
+[2022-03-16 20:16:04,912] {logging_mixin.py:109} INFO - [2022-03-16 20:16:04,912] {dag.py:2935} INFO - Setting next_dagrun for gcs_ingestion_dag_song_feat_v02 to 2022-03-16T00:00:00+00:00
+[2022-03-16 20:16:04,919] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 1.380 seconds
+[2022-03-16 20:16:35,435] {processor.py:163} INFO - Started process (PID=38585) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:16:35,437] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:16:35,437] {logging_mixin.py:109} INFO - [2022-03-16 20:16:35,437] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:16:35,900] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat_v02']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:16:35,906] {logging_mixin.py:109} INFO - [2022-03-16 20:16:35,906] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:16:35,921] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.488 seconds
+[2022-03-16 20:17:06,385] {processor.py:163} INFO - Started process (PID=38733) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:17:06,394] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:17:06,394] {logging_mixin.py:109} INFO - [2022-03-16 20:17:06,394] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:17:06,921] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat_v02']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:17:06,927] {logging_mixin.py:109} INFO - [2022-03-16 20:17:06,927] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:17:06,943] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.560 seconds
+[2022-03-16 20:17:37,140] {processor.py:163} INFO - Started process (PID=38899) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:17:37,141] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:17:37,141] {logging_mixin.py:109} INFO - [2022-03-16 20:17:37,141] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:17:37,657] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat_v02']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:17:37,662] {logging_mixin.py:109} INFO - [2022-03-16 20:17:37,662] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:17:37,678] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.540 seconds
+[2022-03-16 20:17:39,473] {processor.py:163} INFO - Started process (PID=38916) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:17:39,474] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:17:39,474] {logging_mixin.py:109} INFO - [2022-03-16 20:17:39,474] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:17:39,968] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat_v02']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:17:39,974] {logging_mixin.py:109} INFO - [2022-03-16 20:17:39,974] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:17:39,992] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.520 seconds
+[2022-03-16 20:18:10,070] {processor.py:163} INFO - Started process (PID=39056) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:18:10,072] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:18:10,073] {logging_mixin.py:109} INFO - [2022-03-16 20:18:10,073] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:18:10,619] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat_v02']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:18:10,625] {logging_mixin.py:109} INFO - [2022-03-16 20:18:10,624] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:18:10,641] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.573 seconds
+[2022-03-16 20:18:41,032] {processor.py:163} INFO - Started process (PID=39204) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:18:41,033] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:18:41,033] {logging_mixin.py:109} INFO - [2022-03-16 20:18:41,033] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:18:41,518] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat_v02']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:18:41,524] {logging_mixin.py:109} INFO - [2022-03-16 20:18:41,523] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:18:41,540] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.510 seconds
+[2022-03-16 20:19:11,575] {processor.py:163} INFO - Started process (PID=39353) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:19:11,577] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:19:11,577] {logging_mixin.py:109} INFO - [2022-03-16 20:19:11,577] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:19:12,009] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat_v02']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:19:12,014] {logging_mixin.py:109} INFO - [2022-03-16 20:19:12,014] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:19:12,031] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.457 seconds
+[2022-03-16 20:19:42,297] {processor.py:163} INFO - Started process (PID=39492) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:19:42,299] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:19:42,299] {logging_mixin.py:109} INFO - [2022-03-16 20:19:42,299] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:19:42,748] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat_v02']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:19:42,754] {logging_mixin.py:109} INFO - [2022-03-16 20:19:42,753] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:19:42,771] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.476 seconds
+[2022-03-16 20:20:13,304] {processor.py:163} INFO - Started process (PID=39641) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:20:13,306] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:20:13,306] {logging_mixin.py:109} INFO - [2022-03-16 20:20:13,306] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:20:13,767] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat_v02']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:20:13,772] {logging_mixin.py:109} INFO - [2022-03-16 20:20:13,772] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:20:13,789] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.487 seconds
+[2022-03-16 20:20:43,849] {processor.py:163} INFO - Started process (PID=39789) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:20:43,850] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:20:43,851] {logging_mixin.py:109} INFO - [2022-03-16 20:20:43,851] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:20:44,328] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat_v02']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:20:44,334] {logging_mixin.py:109} INFO - [2022-03-16 20:20:44,334] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:20:44,350] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.503 seconds
+[2022-03-16 20:21:14,669] {processor.py:163} INFO - Started process (PID=39928) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:21:14,671] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:21:14,671] {logging_mixin.py:109} INFO - [2022-03-16 20:21:14,671] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:21:15,165] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat_v02']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:21:15,171] {logging_mixin.py:109} INFO - [2022-03-16 20:21:15,171] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:21:15,187] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.520 seconds
+[2022-03-16 20:21:45,685] {processor.py:163} INFO - Started process (PID=40076) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:21:45,695] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:21:45,696] {logging_mixin.py:109} INFO - [2022-03-16 20:21:45,696] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:21:46,188] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat_v02']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:21:46,195] {logging_mixin.py:109} INFO - [2022-03-16 20:21:46,194] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:21:46,211] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.532 seconds
+[2022-03-16 20:22:16,671] {processor.py:163} INFO - Started process (PID=40226) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:22:16,672] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:22:16,673] {logging_mixin.py:109} INFO - [2022-03-16 20:22:16,673] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:22:17,253] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat_v02']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:22:17,260] {logging_mixin.py:109} INFO - [2022-03-16 20:22:17,260] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:22:17,278] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.609 seconds
+[2022-03-16 20:22:34,315] {processor.py:163} INFO - Started process (PID=40271) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:22:34,319] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:22:34,320] {logging_mixin.py:109} INFO - [2022-03-16 20:22:34,320] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:22:34,889] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat_v02']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:22:35,044] {logging_mixin.py:109} INFO - [2022-03-16 20:22:35,044] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:22:35,064] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.756 seconds
+[2022-03-16 20:23:05,899] {processor.py:163} INFO - Started process (PID=40420) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:23:05,900] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:23:05,900] {logging_mixin.py:109} INFO - [2022-03-16 20:23:05,900] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:23:06,383] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat_v02']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:23:06,390] {logging_mixin.py:109} INFO - [2022-03-16 20:23:06,390] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:23:06,405] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.508 seconds
+[2022-03-16 20:23:36,789] {processor.py:163} INFO - Started process (PID=40560) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:23:36,791] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:23:36,791] {logging_mixin.py:109} INFO - [2022-03-16 20:23:36,791] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:23:37,341] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat_v02']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:23:37,349] {logging_mixin.py:109} INFO - [2022-03-16 20:23:37,348] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:23:37,365] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.578 seconds
+[2022-03-16 20:24:07,596] {processor.py:163} INFO - Started process (PID=40708) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:24:07,597] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:24:07,598] {logging_mixin.py:109} INFO - [2022-03-16 20:24:07,598] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:24:08,127] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat_v02']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:24:08,132] {logging_mixin.py:109} INFO - [2022-03-16 20:24:08,132] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:24:08,147] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.553 seconds
+[2022-03-16 20:24:38,333] {processor.py:163} INFO - Started process (PID=40858) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:24:38,335] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:24:38,336] {logging_mixin.py:109} INFO - [2022-03-16 20:24:38,335] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:24:38,792] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat_v02']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:24:38,798] {logging_mixin.py:109} INFO - [2022-03-16 20:24:38,797] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:24:38,813] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.481 seconds
+[2022-03-16 20:25:08,902] {processor.py:163} INFO - Started process (PID=40998) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:25:08,904] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:25:08,904] {logging_mixin.py:109} INFO - [2022-03-16 20:25:08,904] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:25:09,365] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat_v02']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:25:09,370] {logging_mixin.py:109} INFO - [2022-03-16 20:25:09,370] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:25:09,385] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.485 seconds
+[2022-03-16 20:25:39,689] {processor.py:163} INFO - Started process (PID=41147) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:25:39,691] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:25:39,692] {logging_mixin.py:109} INFO - [2022-03-16 20:25:39,691] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:25:40,183] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat_v02']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:25:40,188] {logging_mixin.py:109} INFO - [2022-03-16 20:25:40,188] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:25:40,202] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.517 seconds
+[2022-03-16 20:26:10,939] {processor.py:163} INFO - Started process (PID=41296) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:26:10,941] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:26:10,941] {logging_mixin.py:109} INFO - [2022-03-16 20:26:10,941] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:26:11,390] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat_v02']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:26:11,396] {logging_mixin.py:109} INFO - [2022-03-16 20:26:11,395] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:26:11,411] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.474 seconds
+[2022-03-16 20:26:41,519] {processor.py:163} INFO - Started process (PID=41436) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:26:41,521] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:26:41,521] {logging_mixin.py:109} INFO - [2022-03-16 20:26:41,521] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:26:42,016] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat_v02']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:26:42,022] {logging_mixin.py:109} INFO - [2022-03-16 20:26:42,022] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:26:42,038] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.521 seconds
+[2022-03-16 20:27:12,448] {processor.py:163} INFO - Started process (PID=41586) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:27:12,449] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:27:12,450] {logging_mixin.py:109} INFO - [2022-03-16 20:27:12,450] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:27:12,921] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat_v02']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:27:12,927] {logging_mixin.py:109} INFO - [2022-03-16 20:27:12,927] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:27:12,943] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.497 seconds
+[2022-03-16 20:27:43,673] {processor.py:163} INFO - Started process (PID=41735) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:27:43,675] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:27:43,675] {logging_mixin.py:109} INFO - [2022-03-16 20:27:43,675] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:27:44,143] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat_v02']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:27:44,149] {logging_mixin.py:109} INFO - [2022-03-16 20:27:44,149] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:27:44,165] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.494 seconds
+[2022-03-16 20:27:44,856] {processor.py:163} INFO - Started process (PID=41752) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:27:44,857] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:27:44,857] {logging_mixin.py:109} INFO - [2022-03-16 20:27:44,857] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:27:45,346] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat_v02']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:27:45,495] {logging_mixin.py:109} INFO - [2022-03-16 20:27:45,494] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:27:45,514] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.660 seconds
+[2022-03-16 20:28:15,767] {processor.py:163} INFO - Started process (PID=41891) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:28:15,769] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:28:15,769] {logging_mixin.py:109} INFO - [2022-03-16 20:28:15,769] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:28:16,258] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat_v02']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:28:16,264] {logging_mixin.py:109} INFO - [2022-03-16 20:28:16,263] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:28:16,278] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.512 seconds
+[2022-03-16 20:28:46,336] {processor.py:163} INFO - Started process (PID=42056) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:28:46,336] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:28:46,337] {logging_mixin.py:109} INFO - [2022-03-16 20:28:46,337] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:28:46,792] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat_v02']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:28:46,797] {logging_mixin.py:109} INFO - [2022-03-16 20:28:46,797] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:28:46,814] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.480 seconds
+[2022-03-16 20:29:17,078] {processor.py:163} INFO - Started process (PID=42188) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:29:17,079] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:29:17,079] {logging_mixin.py:109} INFO - [2022-03-16 20:29:17,079] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:29:17,565] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat_v02']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:29:17,570] {logging_mixin.py:109} INFO - [2022-03-16 20:29:17,570] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:29:17,584] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.508 seconds
+[2022-03-16 20:29:47,763] {processor.py:163} INFO - Started process (PID=42328) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:29:47,764] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:29:47,765] {logging_mixin.py:109} INFO - [2022-03-16 20:29:47,764] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:29:48,272] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat_v02']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:29:48,277] {logging_mixin.py:109} INFO - [2022-03-16 20:29:48,277] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:29:48,293] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.532 seconds
+[2022-03-16 20:30:13,514] {processor.py:163} INFO - Started process (PID=42477) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:30:13,515] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:30:13,516] {logging_mixin.py:109} INFO - [2022-03-16 20:30:13,516] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:30:14,074] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat_v02']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:30:14,218] {logging_mixin.py:109} INFO - [2022-03-16 20:30:14,218] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:30:14,236] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.724 seconds
+[2022-03-16 20:30:45,010] {processor.py:163} INFO - Started process (PID=42616) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:30:45,012] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:30:45,012] {logging_mixin.py:109} INFO - [2022-03-16 20:30:45,012] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:30:45,500] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat_v02']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:30:45,506] {logging_mixin.py:109} INFO - [2022-03-16 20:30:45,506] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:30:45,523] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.516 seconds
+[2022-03-16 20:31:15,792] {processor.py:163} INFO - Started process (PID=42765) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:31:15,793] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:31:15,793] {logging_mixin.py:109} INFO - [2022-03-16 20:31:15,793] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:31:16,274] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat_v02']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:31:16,280] {logging_mixin.py:109} INFO - [2022-03-16 20:31:16,280] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:31:16,295] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.505 seconds
+[2022-03-16 20:31:46,904] {processor.py:163} INFO - Started process (PID=42915) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:31:46,913] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:31:46,913] {logging_mixin.py:109} INFO - [2022-03-16 20:31:46,913] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:31:47,381] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat_v02']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:31:47,386] {logging_mixin.py:109} INFO - [2022-03-16 20:31:47,386] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:31:47,399] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.497 seconds
+[2022-03-16 20:32:18,183] {processor.py:163} INFO - Started process (PID=43054) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:32:18,184] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:32:18,184] {logging_mixin.py:109} INFO - [2022-03-16 20:32:18,184] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:32:18,687] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat_v02']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:32:18,693] {logging_mixin.py:109} INFO - [2022-03-16 20:32:18,693] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:32:18,708] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.527 seconds
+[2022-03-16 20:32:48,896] {processor.py:163} INFO - Started process (PID=43203) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:32:48,897] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:32:48,897] {logging_mixin.py:109} INFO - [2022-03-16 20:32:48,897] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:32:49,380] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat_v02']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:32:49,386] {logging_mixin.py:109} INFO - [2022-03-16 20:32:49,386] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:32:49,401] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.507 seconds
+[2022-03-16 20:33:19,676] {processor.py:163} INFO - Started process (PID=43352) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:33:19,677] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:33:19,677] {logging_mixin.py:109} INFO - [2022-03-16 20:33:19,677] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:33:20,165] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat_v02']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:33:20,172] {logging_mixin.py:109} INFO - [2022-03-16 20:33:20,172] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:33:20,192] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.518 seconds
+[2022-03-16 20:33:50,289] {processor.py:163} INFO - Started process (PID=43475) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:33:50,291] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:33:50,291] {logging_mixin.py:109} INFO - [2022-03-16 20:33:50,291] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:33:50,760] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat_v02']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:33:50,766] {logging_mixin.py:109} INFO - [2022-03-16 20:33:50,766] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:33:50,782] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.495 seconds
+[2022-03-16 20:34:21,302] {processor.py:163} INFO - Started process (PID=43609) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:34:21,304] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:34:21,304] {logging_mixin.py:109} INFO - [2022-03-16 20:34:21,304] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:34:21,754] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat_v02']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:34:21,759] {logging_mixin.py:109} INFO - [2022-03-16 20:34:21,759] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:34:21,774] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.474 seconds
+[2022-03-16 20:34:51,845] {processor.py:163} INFO - Started process (PID=43732) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:34:51,847] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:34:51,847] {logging_mixin.py:109} INFO - [2022-03-16 20:34:51,847] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:34:52,348] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat_v02']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:34:52,355] {logging_mixin.py:109} INFO - [2022-03-16 20:34:52,355] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:34:52,376] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.532 seconds
+[2022-03-16 20:35:22,675] {processor.py:163} INFO - Started process (PID=43864) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:35:22,684] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:35:22,684] {logging_mixin.py:109} INFO - [2022-03-16 20:35:22,684] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:35:23,158] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat_v02']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:35:23,164] {logging_mixin.py:109} INFO - [2022-03-16 20:35:23,163] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:35:23,180] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.507 seconds
+[2022-03-16 20:35:53,559] {processor.py:163} INFO - Started process (PID=43996) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:35:53,561] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:35:53,561] {logging_mixin.py:109} INFO - [2022-03-16 20:35:53,561] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:35:54,057] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat_v02']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:35:54,063] {logging_mixin.py:109} INFO - [2022-03-16 20:35:54,063] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:35:54,080] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.523 seconds
+[2022-03-16 20:36:24,817] {processor.py:163} INFO - Started process (PID=44119) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:36:24,819] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:36:24,819] {logging_mixin.py:109} INFO - [2022-03-16 20:36:24,819] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:36:25,348] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat_v02']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:36:25,354] {logging_mixin.py:109} INFO - [2022-03-16 20:36:25,354] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:36:25,373] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.558 seconds
+[2022-03-16 20:36:56,209] {processor.py:163} INFO - Started process (PID=44268) to work on /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:36:56,211] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py for tasks to queue
+[2022-03-16 20:36:56,211] {logging_mixin.py:109} INFO - [2022-03-16 20:36:56,211] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:36:56,790] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_ingestion_dag_song_feat_v02']) retrieved from /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py
+[2022-03-16 20:36:56,796] {logging_mixin.py:109} INFO - [2022-03-16 20:36:56,795] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-16 20:36:56,813] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_ingestion_dag_song_feat_v02.py took 0.606 seconds

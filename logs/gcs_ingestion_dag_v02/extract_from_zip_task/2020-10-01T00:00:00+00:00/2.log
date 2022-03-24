@@ -1,0 +1,29 @@
+[2022-03-15 18:54:30,481] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: gcs_ingestion_dag_v02.extract_from_zip_task scheduled__2020-10-01T00:00:00+00:00 [queued]>
+[2022-03-15 18:54:30,488] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: gcs_ingestion_dag_v02.extract_from_zip_task scheduled__2020-10-01T00:00:00+00:00 [queued]>
+[2022-03-15 18:54:30,488] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-15 18:54:30,488] {taskinstance.py:1239} INFO - Starting attempt 2 of 2
+[2022-03-15 18:54:30,488] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-15 18:54:30,496] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): extract_from_zip_task> on 2020-10-01 00:00:00+00:00
+[2022-03-15 18:54:30,500] {standard_task_runner.py:52} INFO - Started process 3065 to run task
+[2022-03-15 18:54:30,502] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'gcs_ingestion_dag_v02', 'extract_from_zip_task', 'scheduled__2020-10-01T00:00:00+00:00', '--job-id', '41', '--raw', '--subdir', 'DAGS_FOLDER/gcs_ingestion_dag_v02.py', '--cfg-path', '/tmp/tmpcav7z9lm', '--error-file', '/tmp/tmpsixa4pz6']
+[2022-03-15 18:54:30,503] {standard_task_runner.py:77} INFO - Job 41: Subtask extract_from_zip_task
+[2022-03-15 18:54:30,537] {logging_mixin.py:109} INFO - Running <TaskInstance: gcs_ingestion_dag_v02.extract_from_zip_task scheduled__2020-10-01T00:00:00+00:00 [running]> on host 3570d6d4f2dc
+[2022-03-15 18:54:30,560] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-03-15 18:54:30,572] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=gcs_ingestion_dag_v02
+AIRFLOW_CTX_TASK_ID=extract_from_zip_task
+AIRFLOW_CTX_EXECUTION_DATE=2020-10-01T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2020-10-01T00:00:00+00:00
+[2022-03-15 18:54:30,572] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-03-15 18:54:30,573] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'unzip -p /opt/***/bandcamp-items-json.zip albums-json/albums-full-info-10.json >albums-full-info-10.json']
+[2022-03-15 18:54:30,583] {subprocess.py:85} INFO - Output:
+[2022-03-15 18:54:32,507] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-03-15 18:54:32,565] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=gcs_ingestion_dag_v02, task_id=extract_from_zip_task, execution_date=20201001T000000, start_date=20220315T185430, end_date=20220315T185432
+[2022-03-15 18:54:32,599] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-03-15 18:54:32,626] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
