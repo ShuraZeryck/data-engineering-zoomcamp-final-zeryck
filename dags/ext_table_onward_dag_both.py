@@ -5,13 +5,13 @@ from airflow import DAG
 from airflow.utils.dates import days_ago
 from airflow.providers.google.cloud.operators.bigquery import BigQueryCreateExternalTableOperator, BigQueryInsertJobOperator
 # from airflow.providers.google.cloud.transfers.gcs_to_gcs import GCSToGCSOperator
-from 9999 import SparkSubmitOperator
+from airflow.contrib.operators.spark_submit_operator import SparkSubmitOperator
 
 PROJECT_ID = os.environ.get("GCP_PROJECT_ID")
 BUCKET = os.environ.get("GCP_GCS_BUCKET")
 
 path_to_local_home = os.environ.get("AIRFLOW_HOME", "/opt/airflow/")
-BIGQUERY_DATASET = os.environ.get("BIGQUERY_DATASET", 'song_data')
+BIGQUERY_DATASET = 'song_data'
 
 DATASET = "songs"
 FILES = ['acoustic_features', 'song_chart']
@@ -81,7 +81,7 @@ with DAG(
 
 
         pyspark_submit_job = SparkSubmitOperator(
-            application="<path>",
+            application="../Spark/Transform_in_warehouse.py",
             task_id="pyspark_submit_job"
         )
 

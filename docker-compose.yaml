@@ -62,10 +62,10 @@ x-airflow-common:
     AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
     AIRFLOW__API__AUTH_BACKEND: 'airflow.api.auth.backend.basic_auth'
     _PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:-}
-    GOOGLE_APPLICATION_CREDENTIALS: ${HOME}/.google/credentials/google_credentials.json
-    AIRFLOW_CONN_GOOGLE_CLOUD_DEFAULT: 'google-cloud-platform://?extra__google_cloud_platform__key_path=${HOME}/.google/credentials/google_credentials.json'
-    GCP_PROJECT_ID: 'fresh-shell-338718'
-    GCP_GCS_BUCKET: 'dtc_data_lake_fresh-shell-338718'
+    GOOGLE_APPLICATION_CREDENTIALS: ${HOME}/.google/credentials/final-dtc-project-credentials.json
+    AIRFLOW_CONN_GOOGLE_CLOUD_DEFAULT: 'google-cloud-platform://?extra__google_cloud_platform__key_path=${HOME}/.google/credentials/final-dtc-project-credentials.json'
+    GCP_PROJECT_ID: 'final-dtc-project'
+    GCP_GCS_BUCKET: 'project_data_lake_final-dtc-project'
 
     # These are read from .env
     PG_HOST: "${PG_HOST}"

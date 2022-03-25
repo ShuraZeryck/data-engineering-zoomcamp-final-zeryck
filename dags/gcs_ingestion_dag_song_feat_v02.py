@@ -82,13 +82,6 @@ with DAG(
         bash_command=f"curl -sSLf {dataset_url} > {path_to_local_home}/{dataset_folder}.zip"
     )
 
-    # # Bash unzip
-    # extract_from_zip_task = BashOperator(
-    #     task_id="extract_from_zip_task",
-    #     bash_command=f"unzip {path_to_local_home}/{dataset_folder}.zip {dataset_folder}/{dataset_file}"
-    # )
-
-    # Python extract from zip
     extract_from_zip_task = PythonOperator(
         task_id="extract_from_zip_task",
         python_callable=extract_from_zip,
@@ -106,7 +99,6 @@ with DAG(
         },
     )
 
-    # TODO: Homework - research and try XCOM to communicate output values between 2 tasks/operators
     local_to_gcs_task = PythonOperator(
         task_id="local_to_gcs_task",
         python_callable=upload_to_gcs,
