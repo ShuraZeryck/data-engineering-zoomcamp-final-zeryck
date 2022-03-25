@@ -1,45 +1,55 @@
-(Copied from week_2/airflow)
+(rough draft)
 
-### Setup
+### Problem Description
 
-[Airflow Setup with Docker](1_setup.md)
+I wanted to see what qualities of a song lead to popularity, and how that has changed over time. I used weekly top 100 chart data from the US from 196? to 2018, and filtered to just the number one song each week. This knowledge is desireable for folks in the music industry, like producers and such.
 
-### Execution
+The data included the following fields:
 
-1. Build the image (only first-time, or when there's any change in the `Dockerfile`):
-Takes ~15 mins for the first-time
-```shell
-docker-compose build
-```
-or (for legacy versions)
-```shell
-docker build .
-```
+1. key
+2. valence
+3. etc...
 
-2. Initialize the Airflow scheduler, DB, and other config
-```shell
-docker-compose up airflow-init
-```
+I narrowed down which fields to use when putting together my dashboard, as visua
 
-3. Kick up the all the services from the container:
-```shell
-docker-compose up
-```
 
-4. Login to Airflow web UI on `localhost:8080` with default creds: `airflow/airflow`
+### Ingestion to Data Lake
 
-5. Run your DAG on the Web Console.
+I used Terraform as IaC, and Airflow for workflow orchestration (batch data). This first round of DAGs completes the following tasks:
 
-6. On finishing your run or to shut down the container/s:
-```shell
-docker-compose down
-```
+1. Downloads the zip files
+2. Extracts the csvs
+3. Converts them to parquet
+4. Uploads them to GCS
+5. Creates external BQ tables from them
 
-For more info, check out these official docs:
-   * https://airflow.apache.org/docs/apache-airflow/stable/start/docker.html
-   * https://airflow.apache.org/docs/docker-stack/build.html
-   * https://airflow.apache.org/docs/docker-stack/recipes.html
-   
+(A: Used two separate DAGs for ease, since data )
 
-### Future Enhancements
-* Deploy self-hosted Airflow setup on Kubernetes cluster, or use a Managed Airflow (Cloud Composer) service by GCP
+At this point, I explored the data a bit with the BQ UI. I tried making partitioned/clustered tables (using these __ fields), but the query performance was unaffected, so I decided not to move forward with that. (B: I made tables with the BQ UI using these commands: __)
+
+
+### Transformation in Data Warehouse
+
+Option A) I ran a second DAG that ran the following tasks (on Google VM?):
+
+1. Created internal tables from external?
+2. Spark job to transform the data, then send transformed data to BQ storage
+
+
+Option B) I was unable to spend time fixing the issues related to itegrating Spark with Airflow, so I followed these steps to run PySpark with the Dataproc Cluster UI:
+
+1. Commisioned cluster with GCP terminal window with this command __
+2. Went to web interfaces > Jupyter > GCS > created .ipynb
+
+
+### Dashboard
+
+I used Google Data Studio to put together my dashboard. I chose to work with valence for the one to track over time, because __ . I settled on key as the categorical variable, because __ . I also chose to focus on the time period of 2015-2018, since (data look prettier and easier that way), and most recent times are more relevant.
+
+Based on these visuals, it appears that people in the US hate D# and wanted to be sad in 2016-2018. 
+
+
+
+
+
+
