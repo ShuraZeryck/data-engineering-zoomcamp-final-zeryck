@@ -25,9 +25,10 @@ path_to_local_home = os.environ.get("AIRFLOW_HOME", "/opt/airflow/")
 BIGQUERY_DATASET = 'song_data'
 
 
-def extract_from_zip(path_to_file):
+def extract_from_zip(path_to_file, path_to_readme):
     with ZipFile('musicoset_songfeatures.zip', 'r') as zipObj:
         zipObj.extract(path_to_file)
+        zipObj.extract(path_to_readme)
 
 
 def format_to_parquet(src_file):
@@ -39,7 +40,7 @@ def format_to_parquet(src_file):
     pq.write_table(table, src_file.replace('.csv', '.parquet'))
 
 
-def upload_to_gcs(bucket, object_name, local_file):
+def upload_to_gcs(bucket, object_name, local_file, local_readme_file):
     """
     Ref: https://cloud.google.com/storage/docs/uploading-objects#storage-upload-object-python
     :param bucket: GCS bucket name
@@ -55,8 +56,11 @@ def upload_to_gcs(bucket, object_name, local_file):
     client = storage.Client()
     bucket = client.bucket(bucket)
 
-    blob = bucket.blob(object_name)
-    blob.upload_from_filename(local_file)
+    blob1 = bucket.blob(object_name)
+    blob1.upload_from_filename(local_file)
+
+    blob2 = bucket.blob('raw/Feat_ReadMe.txt')
+    blob2.upload_from_filename(local_readme_file)
 
 
 default_args = {
@@ -69,7 +73,7 @@ default_args = {
 
 
 with DAG(
-    dag_id="gcs_ingestion_dag_song_feat_v02",
+    dag_id="gcs_ingestion_dag_song_feat_v03",
     schedule_interval="@once",
     default_args=default_args,
     catchup=True,
@@ -87,6 +91,7 @@ with DAG(
         python_callable=extract_from_zip,
         op_kwargs={
             "path_to_file": f"{dataset_folder}/{dataset_file}",
+            "path_to_readme": f"{dataset_folder}/ReadMe.txt"
         },
     )
 
@@ -106,6 +111,7 @@ with DAG(
             "bucket": BUCKET,
             "object_name": f"raw/{parquet_file}",
             "local_file": f"{path_to_local_home}/{dataset_folder}/{parquet_file}",
+            "local_readme_file": f"{path_to_local_home}/{dataset_folder}/ReadMe.txt"
         },
     )
 
