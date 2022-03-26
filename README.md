@@ -18,10 +18,10 @@ I narrowed down which fields to use when putting together my dashboard, as visua
 I used Terraform as IaC, and Airflow for workflow orchestration (batch data). This first round of DAGs completes the following tasks:
 
 1. Downloads the zip files
-2. Extracts the csvs
-3. Converts them to parquet
-4. Uploads them to GCS
-5. Creates external BQ tables from them
+2. Extracts the csvs, and ReadMes
+3. Converts the csvs to parquet
+4. Uploads the files to GCS
+5. Creates external BQ tables from the parquets
 
 At this point, I explored the data a bit with the BQ UI. I tried making partitioned/clustered tables (using these __ fields), but the query performance was unaffected, so I decided not to move forward with that. I made tables with the BQ UI using these commands:
 
