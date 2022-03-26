@@ -66,6 +66,8 @@ CLUSTER_NAME=dproc-cluster
 
 I used Google Data Studio to put together my dashboard. I chose to work with valence for the one to track over time, because __ . I settled on key as the categorical variable, because __ . I also chose to focus on the time period of 2015-2018, since (data look prettier and easier that way), and most recent times are more relevant.
 
+https://datastudio.google.com/reporting/b77b7528-3e73-48fa-8bee-dad34a9e8641
+
 Based on these visuals, it appears that people in the US hate D# and wanted to be sad in 2016-2018. 
 
 
