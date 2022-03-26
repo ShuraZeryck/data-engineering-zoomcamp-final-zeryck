@@ -2,15 +2,17 @@
 
 ### Problem Description
 
-I wanted to see what qualities of a song lead to popularity, and how that has changed over time. I used weekly top 100 chart data from the US from 196? to 2018, and filtered to just the number one song each week. This knowledge is desireable for folks in the music industry, like producers and such.
+For this project, I wanted to see what qualities of a song lead to popularity, and how that has changed over time. This knowledge is useful for people in the music industry, such as pop artists and producers. I used data from the Billboard Hot 100 (a weekly-updated list of top songs in the US), with records from 1964 to 2018.
 
-The data included the following fields (scripts to get READMEs):
+The dataset included information on a number of musical qualities for each song. The following fields interested me the most:
 
-1. key
-2. valence
-3. etc...
+1. key: A, A#, B, etc.
+2. mode: Major or minor
+3. danceability: “how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity”
+4. energy: “a perceptual measure of intensity and activity”
+5. valence: “musical positiveness conveyed by a track”
 
-I narrowed down which fields to use when putting together my dashboard, as visua
+Full descriptions of all fields are located in the ReadMe files, which are uploaded to GCS in the data ingestion step.
 
 
 ### Ingestion to Data Lake
