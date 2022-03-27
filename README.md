@@ -55,9 +55,11 @@ Still in the terminal, I ran the following to commission a Dataproc cluster:
 
 ```
 REGION=us-west1
-``` ```
+```
+```
 CLUSTER_NAME=dproc-cluster
-``` ```
+```
+```
  gcloud beta dataproc clusters create ${CLUSTER_NAME} \
      --region=${REGION} \
      --master-machine-type e2-standard-2 \
