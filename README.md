@@ -41,7 +41,7 @@ AS SELECT * FROM `final-dtc-project.song_data.external_table_song_pop`;
 
 I was unable to fix the issues related to itegrating Spark and BigQuery, so I took the following steps to run a Spark job using Dataproc (ref: https://medium.com/google-cloud/apache-spark-and-jupyter-notebooks-made-easy-with-dataproc-component-gateway-fa91d48d6a5a):
 
-Opened a terminal window in my GCP console, and enabled the required APIs with the following command:
+1. Opened a terminal window in my GCP console, and enabled the required APIs with the following command:
 
 ```
 gcloud services enable dataproc.googleapis.com \
@@ -51,7 +51,7 @@ gcloud services enable dataproc.googleapis.com \
   bigquerystorage.googleapis.com
 ```
 
-Still in the terminal, I ran the following to commission a Dataproc cluster:
+2. Still in the terminal, I ran the following to commission a Dataproc cluster:
 
 ```
 REGION=us-west1
@@ -73,6 +73,7 @@ CLUSTER_NAME=dproc-cluster
 
 3. I then navigated to my Dataproc cluster in the console, went to “Web Interfaces,” clicked on Jupyter, and created a python3 notebook in the GCS folder.
 
+As commented in the notebook, I used Spark UDFs to make a few columns more readeable, and used Spark SQL to left-join the table of songs by week with the table of song features.
 
 
 ### Dashboard
