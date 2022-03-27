@@ -71,7 +71,7 @@ CLUSTER_NAME=dproc-cluster
 
 3. I then navigated to my Dataproc cluster in the console, went to “Web Interfaces,” clicked on Jupyter, and created a python3 notebook in the GCS folder.
 
-As commented in the notebook, I used Spark UDFs to make a few columns more readeable, and used Spark SQL to left-join the table of songs by week with the table of song features.
+In the notebook, I used Spark UDFs to transform the key and mode columns of the song feature dataframe to be more readable. I then used Spark SQL to filter the table of top 100 songs per week into just the number 1 song per week, and then left-joined this table with the table of song features.
 
 
 ### Dashboard
@@ -79,7 +79,9 @@ As commented in the notebook, I used Spark UDFs to make a few columns more reade
 Link to view:
 https://datastudio.google.com/reporting/b77b7528-3e73-48fa-8bee-dad34a9e8641
 
-I used Google Data Studio to put together my dashboard. I chose to track average valence and danceability over time, because their relationship appears to have an interesting evolution. For the categorical variable, I chose key (note that the bar plot does not account for songs remaining in #1 for more than a week, so “Record Count” likely counts some songs multiple times). As someone with little knowledge of music theory, I’m curious as to why D# is so unpopular.
+I used Google Data Studio to put together my dashboard. I chose to track average valence and danceability over time, because their relationship appears to have an interesting evolution. I find the most recent trend, from 2016-2018, to be particularly intruiging.
+
+For the categorical variable, I chose key (note that the bar plot does not account for songs remaining in #1 for more than a week, so “Record Count” likely counts some songs multiple times). As someone with little knowledge of music theory, I’m curious as to why D# is so unpopular.
 
 
 
