@@ -1,5 +1,3 @@
-(rough draft)
-
 ### Problem Description
 
 For this project, I wanted to see what qualities of a song lead to popularity, and how that has changed over time. This knowledge is useful for people in the music industry, such as pop artists and producers. I used data from the Billboard Hot 100 (a weekly-updated list of top songs in the US), with records from 1964 to 2018.
